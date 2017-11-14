@@ -49,6 +49,7 @@ setup(
             'debug-statement-hook = pre_commit_hooks.debug_statement_hook:debug_statement_hook',
             'detect-aws-credentials = pre_commit_hooks.detect_aws_credentials:main',
             'detect-private-key = pre_commit_hooks.detect_private_key:detect_private_key',
+            'detect-print-statement = pre_commit_hooks.detect_print_statement:detect_print_statement',
             'double-quote-string-fixer = pre_commit_hooks.string_fixer:main',
             'end-of-file-fixer = pre_commit_hooks.end_of_file_fixer:end_of_file_fixer',
             'file-contents-sorter = pre_commit_hooks.file_contents_sorter:main',
