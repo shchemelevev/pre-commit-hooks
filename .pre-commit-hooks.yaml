@@ -253,3 +253,11 @@
     # for backward compatibility
     files: ''
     minimum_pre_commit_version: 0.15.0
+-   id: detect-print-statement
+    name: print statement detector
+    description: "search over all files to locate unnecessary print statements ."
+    entry: detect-print-statement
+    language: python
+    types: [python]
+    args: [-i]
+    # for backward compatibility
